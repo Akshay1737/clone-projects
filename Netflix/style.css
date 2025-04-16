@@ -1,0 +1,413 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin: 0;
+    margin-top: 0;
+    height: 100vh;
+    
+}
+.mainbar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)),  url(banner.png);
+    border-top: 1px solid white;
+    height: 519px;
+    width: 100%;
+    position: static;
+    background-color: black;
+    position:static;
+}
+img{
+    height: 25px;
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 90px;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.136);
+    color: white;
+    border: 1px solid #f5f5f56e;
+    height: 20px;
+    
+}
+
+.btn1{
+    background-color:
+    rgba(229,9,20,255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 21px;
+    padding: 0;
+    width: 60px;
+    margin-left: 10px;
+}
+.main-inside{
+    color: white;
+    text-align: center;
+    
+    margin: 9rem 15rem;
+}
+.main-inside p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.main-inside h1{
+    font-size: 42px;
+}
+.main-inside * {
+    margin: 0;
+    padding: 0;
+}
+#exampleInputEmail1{
+    background-color: rgba(28, 25, 25, 0.439);
+    border: 1px solid rgb(226, 219, 219);
+    color: white;
+    
+}
+.n button {
+    background-color:
+    rgba(229,9,20,255);  /* Button background color */
+    color: white;  /* Text color */
+    display: flex;  /* Arrange elements in one line */
+    align-items: center;  /* Vertically center elements */
+    gap: 5px;  /* Space between text and image */
+    border: none;  /* Remove default border */
+    padding: 8px 12px;  /* Adjust padding */
+    cursor: pointer;
+    height: 36px;
+    width: 130px;
+    border-radius:5px;
+}
+
+
+.n input {
+    padding: 8px;  /* Add padding */
+    border: 1px solid #ded8d8;  /* Light border */
+    outline: none;
+    border-radius:5px;
+    width: 15rem;
+    
+    
+}
+.n {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    gap: 10px; /* No space between input and button */
+}
+.wavy{
+    background-color: red;
+    color:blue;
+    
+}
+/* need to improvise -------------------------------------------------------------------*/
+.ani {
+    position: relative; /* Keeps it in flow and prevents overlap */
+    width: 100%;
+    height: 120px; /* Adjust height to get proper curve */
+    background: linear-gradient(to bottom, #131921, black); /* Dark gradient effect */
+    border: solid .25rem #00000000 transparent;
+    /* Creating the curved top border */
+    
+    border-top-left-radius: 100% 15%;
+    border-top-right-radius: 100% 15%;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+    
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-image: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), initial;
+    
+}
+
+.ani::before {
+    content: '';
+    position: absolute;
+    top: -2px; /* Adjust for smooth curve */
+    left: 0;
+    
+    width: 100%;
+    height: 5px; /* Thickness of the curved gradient */
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 85%);
+    background-image: linear-gradient(to right, rgb(33, 13, 22) 16%, rgb(184, 40, 105), rgb(229, 9, 20), rgb(184, 40, 105), rgb(33, 13, 22) 85%);
+    border-radius: inherit;
+
+    
+}
+@media (min-width: 100%) {
+    .ani {
+        width: 180%;
+        left: -40%;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer-main{
+    background-color: #000000;
+    margin-top: -16px;
+    color: white;
+    padding: 0px 120px;
+    
+    
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+    position: relative;
+    padding: 12px 20px;
+    height: 250px;
+   
+   
+ 
+}
+
+/* Card Container (Scrollable) */
+.card-container {
+    width: 90%; /* Adjust width as needed */
+    overflow: hidden;
+    white-space: nowrap;
+
+    height: 204px;
+    padding: 5px;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Wrapper */
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+/* Individual Cards */
+.cards img {
+    margin: 5px;
+    width: 135px; /* Adjust image width */
+    height: 190px; /* Adjust image height */
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+/* Navigation Buttons */
+.slider-container button {
+    
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 6px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.slider-container button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#para{
+    font-size: 1rem ;
+  
+    padding-left: 4px;
+    margin-top: 50px;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+.card-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+   
+    position: relative;
+    padding: 10px 0px 0px -10px ;
+    margin: 0;
+   
+ 
+}
+.cards2 {
+    display: flex;
+    gap: 10px;
+   
+}
+.cards2 div {
+    margin: 5px;
+    width: 180px; /* Adjust image width */
+    height: 190px; /* Adjust image height */
+    border-radius: 15px;
+    padding: 5px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    background: rgb(30,21,41);
+    background: linear-gradient(0deg, rgba(30,21,41,1) 0%);
+}
+.para1{
+    font-size: 12px;
+}
+#bg{
+    background-image: url(bg2.png);
+    
+}
+/*------------------------------------------------------------------------------------*/
+.question-boxes {
+    height: auto;
+    margin: auto;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    margin: 2px 0;
+    width: 51.2rem;
+    height: 40px;
+    cursor: pointer;
+    background: #2D2D2D;
+    transition: background 0.4s ease;
+}
+
+.question:hover {
+    background: #414141;
+}
+
+.question p {
+    margin: 0;
+    color: #fff;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    background: #2D2D2D;
+    padding: 0 10px;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.answer.open {
+    max-height: 500px; /* Adjust based on content */
+    padding: 10px;
+    margin-top: 0;
+    height: auto;
+    
+}
+
+.icon img {
+    transition: transform 0.3s ease;
+}
+
+.icon.rotate img {
+    transform: rotate(45deg);
+}
+
+.para-in {
+    margin: 8px 10px 0px 0px;
+    color: #fff;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+ .footlog{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 50px;
+}
+#exampleInputEmail1{
+    background-color: rgba(28, 25, 25, 0.439);
+    border: 1px solid rgb(226, 219, 219);
+    color: white;
+    
+}
+.csk button {
+    background-color:
+    rgba(229,9,20,255);  /* Button background color */
+    color: white;  /* Text color */
+    display: flex;  /* Arrange elements in one line */
+    align-items: center;  /* Vertically center elements */
+    gap: 5px;  /* Space between text and image */
+    border: none;  /* Remove default border */
+    padding: 8px 12px;  /* Adjust padding */
+    cursor: pointer;
+    height: 36px;
+    width: 130px;
+    border-radius:5px;
+}
+.csk button:hover{
+    background-color:rgba(255, 0, 0, 0.648);
+}
+.csk input::placeholder {
+    color: rgba(227, 208, 208, 0.743);  /* Placeholder text color */
+}
+
+.csk input {
+    padding: 8px;  /* Add padding */
+    border: 1px solid #ded8d8;  /* Light border */
+    outline: none;
+    border-radius:5px;
+    width: 23rem;
+    
+    
+}
+.csk {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-left: 5rem;
+    gap: 10px; /* No space between input and button */
+}
+/*----------------------------------------------------------*/
+.foot-info{
+ 
+    font-size: 11px;
+    margin-top: 50px;
+}
+.foot-info p a {
+    color: #bbb;
+    color: white;
+}
+.info {
+    display: flex;
+    gap: 100px;
+    
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    text-decoration: underline;
+    color: #bbb;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+
+}
+
+#free{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.foot-info span select{
+    margin-top: 40px;
+}

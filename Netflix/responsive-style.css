@@ -1,0 +1,13 @@
+.btn1:hover{
+    background-color: rgba(255, 0, 0, 0.648);
+
+}
+.n button:hover{
+    background-color:rgba(255, 0, 0, 0.648) ;
+}
+.n input::placeholder {
+    color: rgba(227, 208, 208, 0.743);  /* Placeholder text color */
+}
+.cards img:hover {
+    transform: scale(1.05);
+}
