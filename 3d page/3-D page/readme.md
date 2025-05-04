@@ -7,10 +7,3 @@ Welcome to **MCODE** – a modern, responsive 3D landing page that integrates im
 👉 [View Live Site](https://robo-3d-webpage.netlify.app)
 
 
----
-
-## 📸 Preview
-
-*(Optional: Add a screenshot or animated GIF here)*  
-```md
-<!-- ![3D Webpage Preview](./assets/screenshot.png) -->
