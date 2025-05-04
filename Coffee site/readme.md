@@ -12,10 +12,10 @@ Welcome to the **Coffee Site** – a clean, modern, and responsive website desig
 
 Here are some screenshots related to the project:
 
-![Screenshot 1](Coffee%20site/s1.png)
-![Screenshot 2](Coffee%20site/s2.png)
-![Screenshot 3](Coffee%20site/s3.png)
-![Screenshot 4](Coffee%20site/s4.png)
+![Screenshot 1](s1.png)
+![Screenshot 2](s2.png)
+![Screenshot 3](s3.png)
+![Screenshot 4](s4.png)
 
 ## 🚀 Features
 
