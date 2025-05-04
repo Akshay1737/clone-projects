@@ -22,7 +22,7 @@ The following screenshots showcase the design and layout of the Netflix clone:
 
 You can view the live version of the clone by visiting the following link:
 
-[Netflix Clone Live Demo](https://netflix-single-responsive-dev.netlify.app)
+[Netflix Clone Live Demo](https://netiflix-single-responsive-dev.netlify.app/)
 
 
 ## Getting Started
