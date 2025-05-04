@@ -1,0 +1,9 @@
+.navbar .nav-menu .nav-link:hover{
+  background: var(--secondary-color);
+}
+
+.hero-section .hero-details .button a:hover{
+  color:white;
+  background: transparent;
+  border-color: white;
+}

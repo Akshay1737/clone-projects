@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+#roll-button{
+    background-color: rgb(76, 237, 84);
+    border-radius: 12%;
+}
+.dice{
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.roll-animation{
+    animation-name: roll;
+}
+@keyframes roll{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(0deg) rotateY(720deg);
+    }
+}
+#roll-history li span {
+    font-size: 2rem; /* Increase size of dice in history */
+}
