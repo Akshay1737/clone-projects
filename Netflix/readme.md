@@ -14,9 +14,9 @@ This is a single-page clone of Netflix created using HTML, CSS, and JavaScript. 
 
 The following screenshots showcase the design and layout of the Netflix clone:
 
-![Home Page](Netflix/images/s1.png)
-![Home Page](Netflix/images/s2.png)
-![Home Page](Netflix/images/s4.png)
+![Home Page](images/s1.png)
+![Home Page](images/s2.png)
+![Home Page](images/s4.png)
 
 ## Live Demo
 
