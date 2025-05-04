@@ -33,8 +33,3 @@ To get a local copy up and running on your machine, follow these steps:
 - A browser to view the page.
 - Git to clone the repository.
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/netflix-clone.git
